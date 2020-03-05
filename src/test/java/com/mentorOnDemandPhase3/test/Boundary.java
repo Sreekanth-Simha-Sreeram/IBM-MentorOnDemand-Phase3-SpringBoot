@@ -1,6 +1,6 @@
 package com.mentorOnDemandPhase3.test;
 
-import static org.junit.Assert.assertNotEquals;
+
 
 import org.junit.Assert;
 import org.junit.Test;
@@ -26,7 +26,7 @@ public class Boundary {
       
 
         int passwordLength=10;
-        assertNotEquals(passwordLength,user.getPassword().length());
+        Assert.assertEquals(passwordLength,user.getPassword().length());
 
 
     }
